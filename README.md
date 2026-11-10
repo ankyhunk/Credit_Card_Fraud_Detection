@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-Capstone project (upGrad & IIIT-B, ML C-66) that builds a machine learning model to flag fraudulent credit card transactions.
+Capstone project that builds a machine learning model to flag fraudulent credit card transactions.
 
 Fraud is rare: only about 0.17% of transactions in the dataset are fraudulent, so the main challenge is learning from heavily imbalanced data while keeping **recall** high (catching as many frauds as possible) without flooding the bank with false alarms.
 
