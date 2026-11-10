@@ -16,7 +16,7 @@ The dataset is included as `Data/creditcard.zip`. The notebook reads it directly
 ## Approach
 
 1. **Exploratory data analysis**: missing values, outliers, class distribution
-2. **Preprocessing**: stratified train/test split, `StandardScaler` on `Amount`, power transform to reduce skewness
+2. **Preprocessing**: 80/20 train/test split, `StandardScaler` on `Amount`, power transform to reduce skewness
 3. **Models on the imbalanced data**: Logistic Regression, Decision Tree, XGBoost, tuned with `GridSearchCV` and k-fold cross-validation
 4. **Balancing the classes**: Random Oversampling, **SMOTE** and **ADASYN**, then the same three models on each
 5. **Model selection**: compare ROC-AUC, F1 and recall on the test set, and pick the best probability threshold from the ROC curve
