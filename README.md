@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-Capstone project that builds a machine learning model to flag fraudulent credit card transactions.
+A project that builds a machine learning model to flag fraudulent credit card transactions.
 
 Fraud is rare: only about 0.17% of transactions in the dataset are fraudulent, so the main challenge is learning from heavily imbalanced data while keeping **recall** high (catching as many frauds as possible) without flooding the bank with false alarms.
 
@@ -42,7 +42,3 @@ jupyter notebook Credit-Card-Fraud-Detection-Capstone-Project.ipynb
 ## Technologies
 
 Python, Jupyter Notebook, NumPy, pandas, Matplotlib, seaborn, scikit-learn, imbalanced-learn, XGBoost
-
-## Author
-
-Ankur A Gupta
