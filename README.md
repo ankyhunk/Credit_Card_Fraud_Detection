@@ -11,6 +11,8 @@ Fraud is rare: only about 0.17% of transactions in the dataset are fraudulent, s
 - Features `V1`–`V28` are PCA-transformed for confidentiality; `Time` and `Amount` are the only original features
 - Target: `Class` (1 = fraud, 0 = genuine)
 
+The dataset is included as `Data/creditcard.zip` (zipped to stay under GitHub's 100 MB file limit). The notebook reads it directly with `pd.read_csv`, so there is nothing to unzip.
+
 ## Approach
 
 1. **Exploratory data analysis**: missing values, outliers, class distribution
