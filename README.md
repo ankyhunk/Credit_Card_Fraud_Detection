@@ -6,12 +6,10 @@ Fraud is rare: only about 0.17% of transactions in the dataset are fraudulent, s
 
 ## Dataset
 
-- [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) dataset from Kaggle (European cardholders, September 2013)
+- [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) dataset from Kaggle 
 - 284,807 transactions, of which 492 are frauds
 - Features `V1`–`V28` are PCA-transformed for confidentiality; `Time` and `Amount` are the only original features
 - Target: `Class` (1 = fraud, 0 = genuine)
-
-The dataset is not included in this repository. Download `creditcard.csv` from Kaggle and set the file path in the notebook.
 
 ## Approach
 
